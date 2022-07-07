@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinobi Recorder</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Add loader-wrapper just below the body tag -->
+ <div class="loader-wrapper">
+    <div class="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ </div>
+    <div class="video">
+    <video width="1080" height="500" autoplay></video><br>
+    <div class="btn">
+    <button id="shareScreen">Capture Screen</button>
+<button id="rec" disabled>Record</button>
+<button id="stop" disabled>Stop</button>
+<a id="downloadLink" download="mediarecorder.webm" name="mediarecorder.webm" href></a>
+<div id="error"></div>
+</div>
+</div>
+
+   <script src="scripts.js"></script>
+</body>
+</html>
